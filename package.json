@@ -1,0 +1,30 @@
+{
+	"name": "state-management",
+	"version": "1.0.0",
+	"description": "state-management javascript state",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel src/index.html --open",
+		"clean": "rm -rf dist/*",
+		"build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+		"build": "npm run clean && npm run build:parcel"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ngocsangyem/pure-state-management.git"
+	},
+	"keywords": [
+		"javascript",
+		"state",
+		"ES6"
+	],
+	"author": "ngocsangyem",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ngocsangyem/pure-state-management/issues"
+	},
+	"homepage": "https://github.com/ngocsangyem/pure-state-management#readme",
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4"
+	}
+}
