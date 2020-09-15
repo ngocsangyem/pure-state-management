@@ -14,9 +14,9 @@ export class Count extends Component {
 		let emoji = store.state.items.length > 0 ? '&#x1f64c;' : '&#x1f622;';
 
 		this.element.innerHTML = `
-      <small>You've done</small>
-      ${store.state.items.length}
-      <small>thing${suffix} today ${emoji}</small>
-    `;
+			<small>You've done</small>
+			${store.state.items.length}
+			<small>thing${suffix} today ${emoji}</small>
+		`;
 	}
 }
